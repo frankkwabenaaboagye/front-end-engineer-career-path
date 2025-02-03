@@ -108,9 +108,20 @@ p.content-header {
 
 p{
  /* top | right | bottom | left */
-  padding: 20px 30px 20px 30px;
+  padding: 6px 11px 4px 9px;
 }
 
+/* 
+In the example above, the four values 6px 11px 4px 9px correspond to the amount of padding on each side, in a clockwise rotation. 
+
+- you can have 3 values, 2 values
+
+(top, bottom) and (right, left)
+padding: 5px 10px;
+
+    (top) (left, right) (bottom)
+padding: 5px 10px 20px;
+*/
 
 
 ```
