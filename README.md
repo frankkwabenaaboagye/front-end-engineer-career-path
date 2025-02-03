@@ -26,7 +26,8 @@
     3. John Doe Portfolio  -  PC 🔑 
         ![John Doe Portfolio](./John_Doe_Portfolio/image.png)
 
-- Box Model
+- `Box Model`
+    - establish a `width` and `height`
     - All elements on a web page are interpreted by the browser as “living” inside of a box. This is what is meant by the box model (dimensions, borders, paddings, margins)
     - Box model - CC 📚 + PC 🔑 
         - ![bModel](./FromCC/bModel/image.png)
@@ -84,10 +85,35 @@ div.container {
 
 
 */
+```
+
+- `padding`
+    - space btn the content of a box and the borders of the box
+    - top, right, left, bottom
+
+```css
+/*
+The code in this example puts 10 pixels of space between the content of the paragraph (the text) and the borders, on all four sides 
+*/
+p.content-header {
+  border: 3px solid coral;
+  padding: 10px;
+}
+
+/* more flexibility - e.g. specifying only padding at the bottom*/
+p.content-header {
+  border: 3px solid fuchsia;
+  padding-bottom: 10px;
+}
+
+p{
+ /* top | right | bottom | left */
+  padding: 20px 30px 20px 30px;
+}
+
 
 
 ```
-
 
 
 - Displayigng and Positioning
