@@ -31,4 +31,32 @@
     - Box model - CC 📚 + PC 🔑 
         - ![bModel](./FromCC/bModel/image.png)
     - `Pixels` allow you to set the exact size of an element’s box (width and height). When the width and height of an element are set in pixels, it will be the same size on all devices — an element that fills a laptop screen will overflow a mobile screen.
+    -  `Border`: can be set with specific 
+        - `width` (px, thin, medium, thick), 
+        - `style`, (none, dotted, solid, e.t.c.) [check here - 10 different ones](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#values)
+        - `color` [check here, 140 of them and more ](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+    - `boarder-radius`
+```css
+/* example */
+p {
+  border: 3px solid coral;
+}
+
+/* by default, it is
+width-> medium 
+style-> none 
+color-> color
+
+:where color is the color of the element
+
+for something like this
+p {
+  border: solid coral;
+}
+since there is no width, by it will be medium
+*/
+
+
+
+```
 - Displayigng and Positioning
