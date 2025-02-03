@@ -126,5 +126,29 @@ padding: 5px 10px 20px;
 
 ```
 
+- `margin`
+    - space outside of the box
+    - top, left, bottom, right
+
+```css
+
+p {
+  border: 1px solid aquamarine;
+  margin: 20px;
+}
+
+/* 
+- 20 pixels of space on the outside of the paragraph’s box on all four sides.
+- other HTML elements on the page cannot come within 20 pixels of the paragraph’s border
+*/
+
+/* more flexibility */
+p {
+  border: 3px solid DarkSlateGrey;
+  margin-right: 15px;
+}
+
+```
+
 
 - Displayigng and Positioning
