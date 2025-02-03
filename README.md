@@ -35,7 +35,6 @@
         - `width` (px, thin, medium, thick), 
         - `style`, (none, dotted, solid, e.t.c.) [check here - 10 different ones](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#values)
         - `color` [check here, 140 of them and more ](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
-    - `boarder-radius`
 ```css
 /* example */
 p {
@@ -56,7 +55,39 @@ p {
 since there is no width, by it will be medium
 */
 
+```
+
+- `border-radius`
+    - it modifies the corners of the element's border box
+
+```css
+/* example */
+div.container {
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+
+/* 
+the above example will set all four corners of the border to a radius of 5 pixel
+i.e. the same curvature that a circle with a radius of 5 pixels would have
+*/
+
+/* Note
+You can create a border that is a perfect circle by first creating an element with the same width and height, and then setting the radius equal to half the width of the box, which is 50%.
+
+div.container {
+  height: 60px;
+  width: 60px;
+  border: 3px solid blue;
+  border-radius: 50%;
+}
+
+
+*/
 
 
 ```
+
+
+
 - Displayigng and Positioning
