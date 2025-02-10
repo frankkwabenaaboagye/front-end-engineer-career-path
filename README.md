@@ -188,4 +188,6 @@ horizonal margins: (left and right)
 - contiue with box model - [./FromCC/bModel/README.md)](./FromCC/bModel/README.md)
 
 
-- Displayigng and Positioning
+
+- Changing Box Model
+  - [./FromCC/changingBoxModel/README.md](./FromCC/changingBoxModel/README.md)
