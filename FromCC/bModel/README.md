@@ -84,3 +84,28 @@ p {
 /* you can have it in the x and y direction */
 https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
 ```
+
+- `user agent stylesheet`
+    - a technical term for the browser
+
+    All major web browsers have a default stylesheet they use in the absence of an external stylesheet. These default stylesheets are known as user agent stylesheets
+
+```css
+User agent stylesheets often have default CSS rules that set default values for 
+padding and margin. This affects how the browser displays HTML elements, which can make it difficult for a developer to design or style a web page.
+
+many developers tend to reset the defaults, so that they can truly work with a clean slate.
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* The code in the example above resets the default margin and padding values of all HTML elements. It is often the first CSS rule in an external stylesheet.
+
+When these properties are set to 0, they do not require a unit of measurement.
+
+*/
+
+
+```
