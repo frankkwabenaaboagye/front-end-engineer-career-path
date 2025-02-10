@@ -109,3 +109,30 @@ When these properties are set to 0, they do not require a unit of measurement.
 
 
 ```
+
+-  `visibility`
+
+    - The visibility property can be set to one of the following values:
+        - hidden — hides an element.
+        - visible — displays an element.
+        - collapse — collapses an element.
+
+```css
+<ul>
+  <li>Explore</li>
+  <li>Connect</li>
+  <li class="future">Donate</li>
+</ul>
+
+.future {
+  visibility: hidden;
+}
+
+
+/* Note
+
+
+Note: What’s the difference between display: none and visibility: hidden? An element with display: none will be completely removed from the web page. An element with visibility: hidden, however, will not be visible on the web page, but the space reserved for it will.
+
+*/
+```
