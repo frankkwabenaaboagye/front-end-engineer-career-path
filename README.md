@@ -148,7 +148,44 @@ p {
   margin-right: 15px;
 }
 
+/* short hand */
+p {
+  margin: 6px 10px 5px 12px;
+}
+
+
+/* (top and bottom), (left and right) */
+p {
+  margin: 20px 10px;
+}
+
+
+
+/* center a content */
+div.headline {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* 
+> sets the top and bottom margins to 0 pixels
+> auto value instructs the browser to adjust the left and right margins until the element is centered within its containing element.
+
+> but in order to center, a width must be set
+
+> This will cause the div to center within a containing element that is greater than 400 pixels wide.
+
+vertical margins: (top and bottom)
+horizonal margins: (left and right)
+
+*/
+
 ```
+
+- `margin collapse`
+  - the vertical margins (top and bottom) collapse
+
+- contiue with box model - [./FromCC/bModel/README.md)](./FromCC/bModel/README.md)
 
 
 - Displayigng and Positioning
